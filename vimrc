@@ -19,7 +19,7 @@ tnoremap <C-w>l <C-\><C-n><C-w>l
 " Function to create the desired layout
 function! ProjectMode()
   " Open the directory explorer on the left and resize it
-  Vexplore | vertical resize 20
+  Lexplore | vertical resize 20
 
   " Move the cursor to the right (main window)
   wincmd l
