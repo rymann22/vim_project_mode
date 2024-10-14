@@ -1,0 +1,20 @@
+When your cursor is in the top "edit" window, you can resize it by doing the following
+increase by 10 lines
+- 10 <ctrl+w>+
+
+decrease by 5 lines
+- 5 <ctrl+w>-
+
+set the height
+- 50 <ctrl+w>_
+
+Move around 
+<ctrl+w> h  - move to the window on the left
+<ctrl+w> l  - move to the window on the right
+<ctrl+w> j  - move to the window on the below
+<ctrl+w> k  - move to the window on the above
+note: while in "command mode" in vim, you can also use hljk to move around
+
+Sources
+https://dev.to/mr_destructive/vim-window-splits-p3p
+https://vi.stackexchange.com/questions/514/how-do-i-change-the-current-splits-width-and-height
